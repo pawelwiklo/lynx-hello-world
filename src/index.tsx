@@ -1,8 +1,8 @@
 import { root } from '@lynx-js/react'
 
-import { App } from './App.js'
+import { HomePage } from './view/home_page.jsx'
 
-root.render(<App />)
+root.render(<HomePage />)
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
